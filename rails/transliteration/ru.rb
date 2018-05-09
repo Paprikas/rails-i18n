@@ -72,11 +72,11 @@ module RailsI18n
         end
 
         def upper_multi
-          @upper_multi ||= { "ЬЕ"=>"IE", "ЬЁ"=>"IE", "ЪЕ"=>"YE", "ЪЁ"=>"YO" }
+          @upper_multi ||= { "ЬЕ"=>"IE", "ЬЁ"=>"IE", "ЪЕ"=>"YE", "ЪЁ"=>"YE" }
         end
 
         def lower_multi
-          @lower_multi ||= { "ье"=>"ie", "ьё"=>"ie", "ъе"=>"ye", "ъё"=>"yo" }
+          @lower_multi ||= { "ье"=>"ie", "ьё"=>"ie", "ъе"=>"ye", "ъё"=>"ye" }
         end
 
         def multi_keys
